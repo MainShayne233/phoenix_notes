@@ -30,7 +30,6 @@ defmodule MyApp.Repo.Migrations.CreateCriteria do
 
       timestamps # Default Phoenix thing
     end
-
   end
 end
 ```
