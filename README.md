@@ -1,10 +1,10 @@
 # Phoenix Notes
 
-## Migrations
-Create a migration:
+## Migrations:
+
+### Create a migration
 ```bash
 mix ecto.gen.migration <your_migration_file_name>
-# the migration file will show up in priv/repo/migrations
 ```
 The migration file will show up in ```priv/repo/migrations``` and look something like this:
 ```elixir
