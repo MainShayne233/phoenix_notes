@@ -28,7 +28,7 @@ defmodule MyApp.Repo.Migrations.CreateCriteria do
       add :liked_foods, {:array, :string}
       add :using_phoenix, :boolean, default: true
 
-      timestamps
+      timestamps # Default Phoenix thing
     end
 
   end
