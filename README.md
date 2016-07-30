@@ -34,7 +34,7 @@ defmodule MyApp.Repo.Migrations.CreateCriteria do
   end
 end
 ```
-To create this table in our database, we simply run:
+To create this table, we simply migrate our database by running:
 ```bash
 mix ecto.migrate
 ```
