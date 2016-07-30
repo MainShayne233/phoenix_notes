@@ -64,11 +64,11 @@ Generate that migration file!
 ```bash
 mix ecto.gen.migration change_birthda_to_birthday
 ```
-And here we will show that ```elixir def change``` doesn't need to be in block. We can fill out our migration like this:
+Fill out that bad boy like this:
 ```elixir
 defmodule MyApp.Repo.Migrations.ChangeBirthdaToBirthday do
   use Ecto.Migration
-
+  # Notice def change no longer has a do block within it, unlike the previous examples
   def change do
     rename table(:criterias), :birthda, to: :birthday
   end
